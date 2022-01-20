@@ -40,7 +40,7 @@
               </a>
             </li> -->
             <li class="nav_item">
-              <a href="#" class="nav_link">
+              <a href="#portfolio" class="nav_link">
                 <i class="uil uil-scenery nav_icon"></i> Portfolio
               </a>
             </li>
@@ -345,7 +345,6 @@
       <section class="qualification section">
         <h2 class="section_title">Qualification</h2>
         <span class="section_subtitle">My personal journey</span>
-
         <div class="qualification_container container">
           <div class="qualification_tabs">
             <div class="qualification_button button--flex qualification_active" data-target='#education'>
@@ -506,54 +505,157 @@
       <section class="portfolio section" id="portfolio">
         <h2 class="section_title">Portfolio</h2>
         <span class="section_subtitle">My Work</span>
-        <div class="portfolio_container container swiper-container">
-          <div class="swiper-wrapper">
-            <div class="portfolio_content grid swiper-slide">
+        <div class="portfolio_container container">
+          <div>
+            <div class="portfolio_content grid">
               <img src="/assets/img/beautySalon.png" alt="portfolio_1" class="portfolio_img">
               <div class="portfolio_data">
                 <h3 class="portfolio_title">Modern Website</h3>
                 <p class="portfolio_description">
                   Modern website made with the most usages and named technologies.
                 </p>
-                <a href="https://gabriel300p.github.io/OriginSix/#testimonials" class="button button--flex button--small portfolio_button">
-                  BeautySalon
-                  <i class="uil uil-arrow-right button_icon"></i>
-                </a>
+                <div class="portfolio_button_content">
+                  <a 
+                    href="https://gabriel300p.github.io/OriginSix/#testimonials" class="button button--flex button--small portfolio_button"
+                    target="_blank">
+                    BeautySalon
+                    <i class="uil uil-arrow-right button_icon"></i>
+                  </a>
+                </div>
               </div>
             </div>
-            <div class="portfolio_content grid swiper-slide">
+            <hr class="divider">
+            <div class="portfolio_content grid">
               <img src="/assets/img/briedgeRelief.png" alt="portfolio_2" class="portfolio_img">
               <div class="portfolio_data">
                 <h3 class="portfolio_title">College Project</h3>
                 <p class="portfolio_description">
                   Modern website made with the most usages and named technologies.
                 </p>
-                <a href="https://gabriel300p.github.io/OriginSix/#testimonials" class="button button--flex button--small portfolio_button">
-                  Bridge Relief
-                  <i class="uil uil-arrow-right button_icon"></i>
-                </a>
-              </div>
+                <div class="portfolio_button_content">
+                  <a 
+                    href="https://gabriel300p.github.io/OriginSix/#testimonials" class="button button--flex button--small portfolio_button"
+                    target="_blank">
+                    Bridge Relief
+                    <i class="uil uil-arrow-right button_icon"></i>
+                  </a>
+                </div>
+              </div>  
             </div>
-            <div class="portfolio_content grid swiper-slide">
+            <hr class="divider">
+            <div class="portfolio_content grid">
               <img src="/assets/img/spotify-clone.png" alt="portfolio_3" class="portfolio_img">
               <div class="portfolio_data">
                 <h3 class="portfolio_title">UI Study</h3>
                 <p class="portfolio_description">
                   Modern website made with the most usages and named technologies.
                 </p>
-                <a href="https://gabriel300p.github.io/OriginSix/#testimonials" class="button button--flex button--small portfolio_button">
-                  Spotify Clone
-                  <i class="uil uil-arrow-right button_icon"></i>
-                </a>
+                <div class="portfolio_button_content">
+                  <a 
+                    href="https://gabriel300p.github.io/OriginSix/#testimonials" class="button button--flex button--small portfolio_button"
+                    target="_blank">
+                    Spotify Clone
+                    <i class="uil uil-arrow-right button_icon"></i>
+                  </a>
+                </div>
               </div>
-            </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div>
+            </div>   
           </div> 
         </div>
       </section>
+      <!-- * Contact Me -->
+      <section class="contact section" id="contact">
+        <h2 class="section_title">Contact Me</h2>
+        <span class="section_subtitle">Get in touch</span>
+        <div class="contact_container container grid">
+          <div>
+            <div class="contact_information">
+              <i class="uil uil-phone contact_icon"></i>
+              <div>
+                <h3 class="contact_title">Call Me</h3>
+                <span class="contact_subtitle">(11) 96580-0803</span>
+              </div>
+            </div>
+            <div class="contact_information">
+              <i class="uil uil-envelope contact_icon"></i>
+              <div>
+                <h3 class="contact_title">E-mail</h3>
+                <span class="contact_subtitle">gabriel.andrade200p@gmail.com</span>
+              </div>
+            </div>
+            <div class="contact_information">
+              <i class="uil uil-map contact_icon"></i>
+              <div>
+                <h3 class="contact_title">Location</h3>
+                <span class="contact_subtitle">Guarulhos, SP - Brazil</span>
+              </div>
+            </div>
+          </div>
+          <form action="" class="contact_form grid">
+            <div class="contact_inputs grid">
+              <div class="contact_content">
+                <label for="" class="contact_label">Name</label>
+                <input type="text" class="contact_input">
+              </div>
+              <div class="contact_content">
+                <label for="" class="contact_label">Email</label>
+                <input type="email" class="contact_input">
+              </div>
+            </div>
+            <div class="contact_content">
+              <label for="" class="contact_label">Project</label>
+              <input type="text" class="contact_input">
+            </div>
+            <div class="contact_content">
+              <label for="" class="contact_label">Message</label>
+              <textarea name="" id="" cols="0" rows="7" class="contact_input">
+              </textarea>
+            </div>
+            <div>
+              <a href="" class="button button--flex">
+                Send message
+                <i class="uil uil-message button_icon"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </section>
     </main>
+
+    <!-- * Footer -->
+    <footer class="footer">
+      <div class="footer_bg">
+        <div class="footer_container container grid">
+          <div>
+            <h1 class="footer_title">Gabriel</h1>
+            <span class="footer_subtitle">Full Stack Developer</span>
+          </div>
+          <ul class="footer_links">
+            <li>
+              <a href="#skills" class="footer_link">Skills</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer_link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer_link">Contactme</a>
+            </li>
+          </ul>
+          <div class="footer_socials">
+            <a href="https://twitter.com/Gabriel3ap" class="footer_social" target="_blank">
+              <i class="uil uil-twitter-alt"></i>
+            </a>
+            <a href="https://www.instagram.com/gabriel3ap/" class="footer_social" target="_blank">
+              <i class="uil uil-instagram"></i>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=5511965800803" class="footer_social" target="_blank">
+              <i class="uil uil-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+        <p class="footer_copy">&#169; Gabriel Andrade - 2022</p>
+      </div>
+    </footer>
     <script src="https://kit.fontawesome.com/df30f621df.js"
     crossorigin="anonymous"></script>
     <script src="/scripts/js/swiper-bundle.min.js"></script>
