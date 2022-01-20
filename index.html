@@ -1,103 +1,512 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/styles.css">
-  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-  <title>Gabriel Andrade</title>
-</head>
-<body>
-  <!-- * Header -->
-  <header class="header" id="header">
-    <nav class="nav container">
-      <a href="#" class="nav_logo">Gabriel</a>
-      <div class="nav_menu" id="nav-menu">
-        <ul class="nav_list grid">
-          <li class="nav_item">
-            <a href="#home" class="nav_link">
-              <i class="uil uil-estate nav_icon"></i> Home
-            </a>
-          </li>
-          <li class="nav_item">
-            <a href="#about" class="nav_link">
-              <i class="uil uil-user nav_icon"></i> About
-            </a>
-          </li>
-          <li class="nav_item">
-            <a href="#skills" class="nav_link">
-              <i class="uil uil-file-alt nav_icon"></i> Skills
-            </a>
-          </li>
-          <li class="nav_item">
-            <a href="#services" class="nav_link">
-              <i class="uil uil-briefcase-alt nav_icon"></i> Services
-            </a>
-          </li>
-          <li class="nav_item">
-            <a href="#" class="nav_link">
-              <i class="uil uil-scenery nav_icon"></i> Portfolio
-            </a>
-          </li>
-          <li class="nav_item">
-            <a href="#contact" class="nav_link">
-              <i class="uil uil-message nav_icon"></i> Contact
-            </a>
-          </li>
-        </ul>
-        <i class="uil uil-times nav_close" id="nav-close"></i>
-      </div>
-      <div class="nav_btns">
-        <div class="nav_toggle" id="nav-toggle">
-          <i class="uil uil-apps"></i>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <title>Gabriel Andrade</title>
+  </head>
+  <body>
+    <!-- * Header -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav_logo">Gabriel</a>
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list grid">
+            <li class="nav_item">
+              <a href="#home" class="nav_link">
+                <i class="uil uil-estate nav_icon"></i> Home
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">
+                <i class="uil uil-user nav_icon"></i> About
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#skills" class="nav_link">
+                <i class="uil uil-file-alt nav_icon"></i> Skills
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#services" class="nav_link">
+                <i class="uil uil-briefcase-alt nav_icon"></i> Services
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#" class="nav_link">
+                <i class="uil uil-scenery nav_icon"></i> Portfolio
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link">
+                <i class="uil uil-message nav_icon"></i> Contact
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav_close" id="nav-close"></i>
         </div>
-      </div>
-    </nav>
-  </header>
+        <div class="nav_btns">
+          <div class="nav_toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-  <!-- * Main -->
-  <main class="main">
-    <!-- * Home -->
-    <section class="home section" id="home">
-      <div class="home_container container grid">
-        <div class="home_content grid">
-          <div class="home_social">
-            <a 
-              href="https://www.linkedin.com/in/gabriel300p/" class="home_social-icon"
-              target="_blank">
-              <i class="uil uil-linkedin"></i>
-            </a>
-            <a 
-              href="https://github.com/Gabriel300p" 
-              class="home_social-icon"
-              target="_blank">
-              <i class="uil uil-github"></i>
-            </a>
+    <!-- * Main -->
+    <main class="main">
+      <!-- * Home -->
+      <section class="home section" id="home">
+        <div class="home_container container grid">
+          <div class="home_content grid">
+            <div class="home_social">
+              <a
+                href="https://www.linkedin.com/in/gabriel300p/"
+                class="home_social-icon"
+                target="_blank"
+              >
+                <i class="uil uil-linkedin"></i>
+              </a>
+              <a
+                href="https://github.com/Gabriel300p"
+                class="home_social-icon"
+                target="_blank"
+              >
+                <i class="uil uil-github"></i>
+              </a>
+            </div>
+            <div class="home_img">
+              <img
+                src="/assets/img/tech_illustration_3.svg"
+                alt="Foto Perfil"
+              />
+              <!-- <img src="/assets/img/Foto_Trabalho.jpeg" alt="Foto Perfil"> -->
+            </div>
+            <div class="home_data">
+              <h1 class="home_title">Hello, I'm Gabriel</h1>
+              <h3 class="home_subtitle">Full Stack Developer</h3>
+              <p class="home_description">
+                Five months of experience developing a big project from the
+                bottom to the top. Using the most usage technologies.
+              </p>
+              <a href="#contact" class="button button--flex">
+                Contact me<i class="button_icon uil uil-message"></i>
+              </a>
+            </div>
           </div>
-          <div class="home_img">
-            <img src="/assets/img/Foto_Trabalho.jpeg" alt="Foto Perfil">
-          </div>
-          <div class="home_data">
-            <h1 class="home_title">Hello, I'm Gabriel</h1>
-            <h3 class="home_subtitle">Full Stack Developer</h3>
-            <p class="home_description">Five months of experience developing a big project from the bottom to the top. Using the most usage technologies.</p>
-            <a href="#contact" class="button button--flex">
-              Contact me<i class="uil uil-message"></i>
+          <div class="home_scroll">
+            <a href="#about" class="home_scroll-button button--flex">
+              <i class="uil uil-mouse home_scroll-mouse"></i>
+              <span class="home_scroll-name">Scroll Down</span>
+              <i class="uil uil-arrow-down home_scroll-arrow"></i>
             </a>
           </div>
         </div>
-        <div class="home_scroll">
-          <a href="#about" class="home_scroll-button button--flex">
-            <i class="uil uil-mouse home_scroll-mouse"></i>
-            <span class="home_scroll-name">Scroll Down</span>
-            <i class="uil uil-arrow-down home_scroll-arrow"></i>
-          </a>
-        </div>
-      </div>
-    </section>
-  </main>
+      </section>
 
-  <script src="scripts/js/main.js"></script>
-</body>
+      <!-- * About -->
+      <section class="about section" id="about">
+        <h2 class="section_title">About Me</h2>
+        <span class="section_subtitle">My Introduction</span>
+        <div class="about_container container grid">
+          <img src="/assets/img/Foto_Trabalho.jpeg" alt="" class="about_img" />
+          <div class="about_data">
+            <p class="about_description">
+              Junior developer with 5 months of experience with full stack
+              development, being able to do the frontend, backend and database
+              of the application
+            </p>
+            <div class="about_info">
+              <div>
+                <span class="about_info-title">05+</span>
+                <span class="about_info-name"
+                  >Months <br />
+                  experience</span
+                >
+              </div>
+              <div>
+                <span class="about_info-title">05+</span>
+                <span class="about_info-name"
+                  >Completed <br />
+                  projects</span
+                >
+              </div>
+              <div>
+                <span class="about_info-title">02+</span>
+                <span class="about_info-name"
+                  >Companies <br />
+                  worked</span
+                >
+              </div>
+            </div>
+            <div class="about_button">
+              <a
+                download=""
+                href="/assets/pdf/gabriel-andrade.pdf"
+                class="button button--flex"
+              >
+                Download CSV
+                <i class="uil uil-download-alt"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- * Skills -->
+      <section class="skills section" id="skills">
+        <h2 class="section_title">Skills</h2>
+        <span class="section_subtitle">My technical level</span>
+        <div class="skills_container container grid">
+          <div>
+            <div class="skills_content skills_open">
+              <div class="skills_header">
+                <i class="uil uil-brackets-curly skills_icon"></i>
+                <div>
+                  <h1 class="skills_title">Frontend Developer</h1>
+                  <span class="skills_subtitle">Studying for 2 years</span>
+                </div>
+                <i class="uil uil-angle-down skills_arrow"></i>
+              </div>
+              <div class="skills_list grid">
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <i class="uil uil-html5-alt skills_icon_language"></i>
+                    <h3 class="skills_name">HTML</h3>
+                    <span class="skills_number">90%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_html"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <i class="uil uil-css3-simple skills_icon_language"></i>
+                    <h3 class="skills_name">CSS</h3>
+                    <span class="skills_number">70%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_css"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <i class="uil uil-java-script skills_icon_language"></i>
+                    <h3 class="skills_name">JavaScript</h3>
+                    <span class="skills_number">50%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_js"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <i class="uil uil-react skills_icon_language"></i>
+                    <h3 class="skills_name">React</h3>
+                    <span class="skills_number">60%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_react"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="skills_content skills_close">
+              <div class="skills_header">
+                <i class="uil uil-server-network skills_icon"></i>
+                <div>
+                  <h1 class="skills_title">Backend Developer</h1>
+                  <span class="skills_subtitle">Studying for 1 year</span>
+                </div>
+                <i class="uil uil-angle-down skills_arrow"></i>
+              </div>
+              <div class="skills_list grid">
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <i class="fab fa-python skills_icon_language"></i>
+                    <h3 class="skills_name">Python</h3>
+                    <span class="skills_number">50%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_python"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <i class="fab fa-google skills_icon_language"></i>
+                    <h3 class="skills_name">Go</h3>
+                    <span class="skills_number">30%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_go"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="skills_content skills_close">
+              <div class="skills_header">
+                <i class="uil uil-swatchbook skills_icon"></i>
+                <div>
+                  <h1 class="skills_title">Designer</h1>
+                  <span class="skills_subtitle">Studying for 2 year</span>
+                </div>
+                <i class="uil uil-angle-down skills_arrow"></i>
+              </div>
+              <div class="skills_list grid">
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <i class="fab fa-figma skills_icon_language"></i>
+                    <h3 class="skills_name">Figma</h3>
+                    <span class="skills_number">60%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_figma"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <i class="uil uil-camera skills_icon_language"></i>
+                    <h3 class="skills_name">Photoshop</h3>
+                    <span class="skills_number">40%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_photoshop"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="skills_content skills_close">
+              <div class="skills_header">
+                <i class="uil uil-keyboard skills_icon"></i>
+                <div>
+                  <h1 class="skills_title">Computer Technician</h1>
+                  <span class="skills_subtitle">3 years of experience</span>
+                </div>
+                <i class="uil uil-angle-down skills_arrow"></i>
+              </div>
+              <div class="skills_list grid">
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <i class="uil uil-server skills_icon_language"></i>
+                    <h3 class="skills_name">Windows Server 2012</h3>
+                    <span class="skills_number">80%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_windows"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <i class="uil uil-dashboard skills_icon_language"></i>
+                    <h3 class="skills_name">Zabbix and Grafana</h3>
+                    <span class="skills_number">60%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_zabbix"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <i class="uil uil-wifi-router skills_icon_language"></i>
+                    <h3 class="skills_name">Rounters Management</h3>
+                    <span class="skills_number">70%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_rounters"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <i class="uil uil-desktop skills_icon_language"></i>
+                    <h3 class="skills_name">Computer Maintenance</h3>
+                    <span class="skills_number">90%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_computer"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- * Qualification -->
+      <section class="qualification section">
+        <h2 class="section_title">Qualification</h2>
+        <span class="section_subtitle">My personal journey</span>
+
+        <div class="qualification_container container">
+          <div class="qualification_tabs">
+            <div class="qualification_button button--flex qualification_active" data-target='#education'>
+              <i class="uil uil-graduation-cap qualification_icon"></i>
+              Education
+            </div>
+            <div class="qualification_button button--flex" data-target='#work'>
+              <i class="uil uil-briefcase-alt qualification_icon"></i>
+              Work
+            </div>
+          </div>
+          <div class="qualification_sections">
+            <div class="qualification_content qualification_active" data-content id="education">
+              <div class="qualification_data">
+                <div>   
+                  <h3 class="qualification_title">
+                    Analysis and systems development
+                  </h3>
+                  <span class="qualification_subtitle"> 
+                    FIAP - Faculdade de Informática e Administração Paulista
+                  </span>
+                  <div class="qualification_calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2021 - Current
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification_rounder"></span>
+                  <span class="qualification_line"></span>
+                </div>
+              </div>
+              <div class="qualification_data">
+                <div></div>
+                <div>
+                  <span class="qualification_rounder"></span>
+                  <span class="qualification_line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification_title">Course - Discover (Frontend Basics)</h3>
+                  <span class="qualification_subtitle">Rocketseat</span>
+                  <div class="qualification_calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2022
+                  </div>
+                </div>
+              </div>
+              <div class="qualification_data">
+                <div>
+                  <h3 class="qualification_title">
+                    Course - Banco de Dados SQL do ZERO ao Avançado
+                  </h3>
+                  <span class="qualification_subtitle"
+                    >Udemy</span
+                  >
+                  <div class="qualification_calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2022
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification_rounder"></span>
+                  <span class="qualification_line"></span>
+                </div>
+              </div>
+              <div class="qualification_data">
+                <div></div>
+                <div>
+                  <span class="qualification_rounder"></span>
+                  <span class="qualification_line"></span>
+                </div>
+                <div>   
+                  <h3 class="qualification_title">
+                    Course - Zabbix contruindo um ambiente de gerenciamento
+                  </h3>
+                  <span class="qualification_subtitle">Udemy</span>
+                  <div class="qualification_calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2020
+                  </div>
+                </div>
+              </div>
+              <div class="qualification_data">
+                <div>
+                  <h3 class="qualification_title">Course - Excel do Básico ao Avançado</h3>
+                  <span class="qualification_subtitle">Ninja do Excel</span>
+                  <div class="qualification_calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2020
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification_rounder"></span>
+                  <span class="qualification_line"></span>
+                </div>
+              </div>
+              <div class="qualification_data">
+                <div></div>
+                <div>
+                  <span class="qualification_rounder"></span>
+                </div>
+                <div>
+                  <h3 class="qualification_title">
+                    Course - Wizard English Teens
+                  </h3>
+                  <span class="qualification_subtitle"
+                    >Wizard By Person</span
+                  >
+                  <div class="qualification_calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2013 - 2016
+                  </div>
+                </div>
+              </div>
+            </div>  
+            <div class="qualification_content" data-content id="work">
+              <div class="qualification_data">
+                <div>
+                  <h3 class="qualification_title">
+                    Software Development Analyst
+                  </h3>
+                  <span class="qualification_subtitle"
+                    >Acesso Energia</span
+                  >
+                  <div class="qualification_calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2021 - Current
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification_rounder"></span>
+                  <span class="qualification_line"></span>
+                </div>
+              </div>
+              <div class="qualification_data">
+                <div></div>
+                <div>
+                  <span class="qualification_rounder"></span>
+                </div>
+                <div>
+                  <h3 class="qualification_title">
+                    Data Analyst and Network Maintenance 
+                  </h3>
+                  <span class="qualification_subtitle"
+                    >Omega Digital Center</span
+                  >
+                  <div class="qualification_calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2018 - 2021
+                  </div>
+                </div>
+              </div>
+            </div>  
+          </div>
+        </div>
+        </div>
+      </section>
+    </main>
+    <script src="scripts/js/main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/df30f621df.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
