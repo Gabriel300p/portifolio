@@ -516,10 +516,6 @@ img {
   cursor: pointer;
 }
 
-.qualification_sections {
-  margin-left: 1.5rem;
-}
-
 .qualification_button:hover {
   color: var(--first-color);
 }
