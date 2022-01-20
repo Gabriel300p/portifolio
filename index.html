@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
     />
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Gabriel Andrade</title>
   </head>
   <body>
@@ -33,11 +34,11 @@
                 <i class="uil uil-file-alt nav_icon"></i> Skills
               </a>
             </li>
-            <li class="nav_item">
+            <!-- <li class="nav_item">
               <a href="#services" class="nav_link">
                 <i class="uil uil-briefcase-alt nav_icon"></i> Services
               </a>
-            </li>
+            </li> -->
             <li class="nav_item">
               <a href="#" class="nav_link">
                 <i class="uil uil-scenery nav_icon"></i> Portfolio
@@ -124,9 +125,9 @@
             </p>
             <div class="about_info">
               <div>
-                <span class="about_info-title">05+</span>
+                <span class="about_info-title">01+</span>
                 <span class="about_info-name"
-                  >Months <br />
+                  >Years <br />
                   experience</span
                 >
               </div>
@@ -151,14 +152,13 @@
                 href="/assets/pdf/gabriel-andrade.pdf"
                 class="button button--flex"
               >
-                Download CSV
+                Download CV
                 <i class="uil uil-download-alt"></i>
               </a>
             </div>
           </div>
         </div>
       </section>
-
       <!-- * Skills -->
       <section class="skills section" id="skills">
         <h2 class="section_title">Skills</h2>
@@ -502,11 +502,61 @@
         </div>
         </div>
       </section>
+      <!-- * Portfolio -->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section_title">Portfolio</h2>
+        <span class="section_subtitle">My Work</span>
+        <div class="portfolio_container container swiper-container">
+          <div class="swiper-wrapper">
+            <div class="portfolio_content grid swiper-slide">
+              <img src="/assets/img/beautySalon.png" alt="portfolio_1" class="portfolio_img">
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">Modern Website</h3>
+                <p class="portfolio_description">
+                  Modern website made with the most usages and named technologies.
+                </p>
+                <a href="https://gabriel300p.github.io/OriginSix/#testimonials" class="button button--flex button--small portfolio_button">
+                  BeautySalon
+                  <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+              </div>
+            </div>
+            <div class="portfolio_content grid swiper-slide">
+              <img src="/assets/img/briedgeRelief.png" alt="portfolio_2" class="portfolio_img">
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">College Project</h3>
+                <p class="portfolio_description">
+                  Modern website made with the most usages and named technologies.
+                </p>
+                <a href="https://gabriel300p.github.io/OriginSix/#testimonials" class="button button--flex button--small portfolio_button">
+                  Bridge Relief
+                  <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+              </div>
+            </div>
+            <div class="portfolio_content grid swiper-slide">
+              <img src="/assets/img/spotify-clone.png" alt="portfolio_3" class="portfolio_img">
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">UI Study</h3>
+                <p class="portfolio_description">
+                  Modern website made with the most usages and named technologies.
+                </p>
+                <a href="https://gabriel300p.github.io/OriginSix/#testimonials" class="button button--flex button--small portfolio_button">
+                  Spotify Clone
+                  <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div> 
+        </div>
+      </section>
     </main>
+    <script src="https://kit.fontawesome.com/df30f621df.js"
+    crossorigin="anonymous"></script>
+    <script src="/scripts/js/swiper-bundle.min.js"></script>
     <script src="scripts/js/main.js"></script>
-    <script
-      src="https://kit.fontawesome.com/df30f621df.js"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>

@@ -256,7 +256,7 @@ img {
 
 .home_img {
   width: 260px;
-  margin-left: 1rem;
+  margin-left: 0.75rem;
 }
 
 .home_data {
@@ -571,3 +571,33 @@ img {
 .qualification_active[data-content] {
   display: block;
 }
+
+/* * Portfolio */
+
+.portfolio_container {
+  overflow: initial;
+}
+
+.portfolio_content {
+  padding: 0 1.5rem;
+}
+
+.portfolio_img {
+  width: 265px;
+  border-radius: 0.5rem;
+  justify-self: center;
+}
+
+.portfolio_title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-0-5);
+}
+
+.portfolio_description {
+  margin-bottom: var(--mb-0-75);
+}
+
+.portfolio_button:hover .button_icon {
+  transform: translateX(0.25rem);
+}
+
