@@ -21,28 +21,28 @@
         <div class="nav_menu" id="nav-menu">
           <ul class="nav_list grid">
             <li class="nav_item">
-              <a href="#home" class="nav_link active-link">
-                <i class="uil uil-estate nav_icon"></i> Home
+              <a href="#home" class="nav_link active-link nav_home">
+                <i class="uil uil-estate nav_icon"></i>Inicio
               </a>
             </li>
             <li class="nav_item">
-              <a href="#about" class="nav_link">
-                <i class="uil uil-user nav_icon"></i> About
+              <a href="#about" class="nav_link nav_about">
+                <i class="uil uil-user nav_icon"></i> Sobre
               </a>
             </li>
             <li class="nav_item">
-              <a href="#skills" class="nav_link">
-                <i class="uil uil-file-alt nav_icon"></i> Skills
+              <a href="#skills" class="nav_link nav_skills">
+                <i class="uil uil-file-alt nav_icon"></i> Habilidades
               </a>
             </li>
             <li class="nav_item">
-              <a href="#portfolio" class="nav_link">
-                <i class="uil uil-scenery nav_icon"></i> Portfolio
+              <a href="#portfolio" class="nav_link nav_portfolio">
+                <i class="uil uil-scenery nav_icon"></i> Portifólio
               </a>
             </li>
             <li class="nav_item">
-              <a href="#contact" class="nav_link">
-                <i class="uil uil-message nav_icon"></i> Contact
+              <a href="#contact" class="nav_link nav_contact">
+                <i class="uil uil-message nav_icon"></i> Contato
               </a>
             </li>
           </ul>
@@ -50,6 +50,14 @@
         </div>
         <div class="nav_btns">
           <!-- * Theme Change BUtton -->
+          <div class="langWrap">
+            <a href="#" language="portuguese" class="active_language">
+              <img src="/assets/img/brazil.png" alt="" class="brazil_flag">
+            </a>
+            <a href="#" language="english">
+              <img src="/assets/img/united-states-of-america.png" alt="" class="usa_flag">
+            </a>
+          </div>  
           <i class="uil uil-moon change-theme" id="theme-button"></i>
           <div class="nav_toggle" id="nav-toggle">
             <i class="uil uil-apps"></i>
@@ -87,21 +95,20 @@
               />
             </div>
             <div class="home_data">
-              <h1 class="home_title">Hello, I'm Gabriel</h1>
-              <h3 class="home_subtitle">Full Stack Developer</h3>
+              <h1 class="home_title">Olá, eu sou o Gabriel</h1>
+              <h3 class="home_subtitle">Desenvolvedor Frontend</h3>
               <p class="home_description">
-                Five months of experience developing a big project from the
-                bottom to the top. Using the most usage technologies.
+                Desenvolvedor Junior com foco em frontend, mas também podendo fazer a função de full stack. Aprendendo todo dia um pouco mais nesse imenso mundo da tecnologia. 
               </p>
-              <a href="#contact" class="button button--flex">
-                Contact me<i class="button_icon uil uil-message"></i>
+              <a href="#contact" class="button button--flex contact_button">
+                Entre em Contato
               </a>
             </div>
           </div>
           <div class="home_scroll">
             <a href="#about" class="home_scroll-button button--flex">
               <i class="uil uil-mouse home_scroll-mouse"></i>
-              <span class="home_scroll-name">Scroll Down</span>
+              <span class="home_scroll_name">Role para baixo</span>
               <i class="uil uil-arrow-down home_scroll-arrow"></i>
             </a>
           </div>
@@ -344,9 +351,13 @@
         <span class="section_subtitle">My personal journey</span>
         <div class="qualification_container container">
           <div class="qualification_tabs">
-            <div class="qualification_button button--flex qualification_active" data-target='#education'>
+            <div class="qualification_button button--flex qualification_active" data-target='#college'>
               <i class="uil uil-graduation-cap qualification_icon"></i>
-              Education
+              College
+            </div>
+            <div class="qualification_button button--flex" data-target='#course'>
+              <i class="uil uil-diary qualification_icon"></i>
+              Courses
             </div>
             <div class="qualification_button button--flex" data-target='#work'>
               <i class="uil uil-briefcase-alt qualification_icon"></i>
@@ -354,7 +365,7 @@
             </div>
           </div>
           <div class="qualification_sections">
-            <div class="qualification_content qualification_active" data-content id="education">
+            <div class="qualification_content qualification_active" data-content id="college">
               <div class="qualification_data">
                 <div>   
                   <h3 class="qualification_title">
@@ -366,6 +377,45 @@
                   <div class="qualification_calendar">
                     <i class="uil uil-calendar-alt"></i>
                     2021 - Current
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification_rounder"></span>
+                  <span class="qualification_line"></span>
+                </div>
+              </div>
+              <div class="qualification_data">
+                <div></div>
+                <div>
+                  <span class="qualification_rounder"></span>
+                </div>
+                <div>   
+                  <h3 class="qualification_title">
+                    High School
+                  </h3>
+                  <span class="qualification_subtitle"> 
+                    E.E Deputado José Storopoli
+                  </span>
+                  <div class="qualification_calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2015 - 2018
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>  
+            <div class="qualification_content" data-content id="course">
+              <div class="qualification_data">
+                <div>
+                  <h3 class="qualification_title">
+                    Course - Banco de Dados SQL do ZERO ao Avançado
+                  </h3>
+                  <span class="qualification_subtitle"
+                    >Udemy</span
+                  >
+                  <div class="qualification_calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2022
                   </div>
                 </div>
                 <div>
@@ -390,15 +440,11 @@
               </div>
               <div class="qualification_data">
                 <div>
-                  <h3 class="qualification_title">
-                    Course - Banco de Dados SQL do ZERO ao Avançado
-                  </h3>
-                  <span class="qualification_subtitle"
-                    >Udemy</span
-                  >
+                  <h3 class="qualification_title">Course - Excel do Básico ao Avançado</h3>
+                  <span class="qualification_subtitle">Ninja do Excel</span>
                   <div class="qualification_calendar">
                     <i class="uil uil-calendar-alt"></i>
-                    2022
+                    2020
                   </div>
                 </div>
                 <div>
@@ -425,24 +471,6 @@
               </div>
               <div class="qualification_data">
                 <div>
-                  <h3 class="qualification_title">Course - Excel do Básico ao Avançado</h3>
-                  <span class="qualification_subtitle">Ninja do Excel</span>
-                  <div class="qualification_calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    2020
-                  </div>
-                </div>
-                <div>
-                  <span class="qualification_rounder"></span>
-                  <span class="qualification_line"></span>
-                </div>
-              </div>
-              <div class="qualification_data">
-                <div></div>
-                <div>
-                  <span class="qualification_rounder"></span>
-                </div>
-                <div>
                   <h3 class="qualification_title">
                     Course - Wizard English Teens
                   </h3>
@@ -454,8 +482,11 @@
                     2013 - 2016
                   </div>
                 </div>
-              </div>
+                <div>
+                  <span class="qualification_rounder"></span>
+                </div>
             </div>  
+          </div>
             <div class="qualification_content" data-content id="work">
               <div class="qualification_data">
                 <div>
@@ -493,8 +524,7 @@
                   </div>
                 </div>
               </div>
-            </div>  
-          </div>
+            </div>
         </div>
         </div>
       </section>
@@ -659,6 +689,7 @@
     <script src="https://kit.fontawesome.com/df30f621df.js"
     crossorigin="anonymous"></script>
     <script src="/scripts/js/swiper-bundle.min.js"></script>
+    <script src="scripts/js/texts.js"></script>
     <script src="scripts/js/main.js"></script>
   </body>
 </html>
