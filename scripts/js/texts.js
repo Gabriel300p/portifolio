@@ -27,7 +27,7 @@ const SkillsTitleBackEl = document.querySelector('.skills_title_back');
 const SkillsSubtitleBackEl = document.querySelector('.skills_subtitle_back');
 const SkillsTitleComputerEl = document.querySelector('.skills_title_computer');
 const SkillsSubtitleComputerEl = document.querySelector('.skills_subtitle_computer');
-const QualificationTitleEl = document.querySelector('.qualification_title');
+const QualificationTitleMainEl = document.querySelector('.qualification_title_main');
 const QualificationSubtitleMainEl = document.querySelector('.qualification_subtitle_main');
 const QualificationCollegeEl = document.querySelector('.qualification_college');
 const QualificationCourseEl = document.querySelector('.qualification_course');
@@ -85,7 +85,7 @@ link.forEach(el => {
     SkillsSubtitleBackEl.textContent = data[attr].skills_subtitle_back;
     SkillsTitleComputerEl.textContent = data[attr].skills_title_computer;
     SkillsSubtitleComputerEl.textContent = data[attr].skills_subtitle_computer;
-    QualificationTitleEl.textContent = data[attr].qualification_title;
+    QualificationTitleMainEl.textContent = data[attr].qualification_title_main;
     QualificationSubtitleMainEl.textContent = data[attr].qualification_subtitle_main;
     QualificationCollegeEl.textContent = data[attr].qualification_college;
     QualificationCourseEl.textContent = data[attr].qualification_course;
@@ -142,7 +142,7 @@ var data = {
     "skills_subtitle_back": "Estudando por 1 ano",
     "skills_title_computer": "Técnico de Informática",
     "skills_subtitle_computer": "3 anos de experiência",
-    "qualification_title": "Qualificações",
+    "qualification_title_main": "Qualificações",
     "qualification_subtitle_main": "Minha jornada pessoal",
     "qualification_college": "Colégio",
     "qualification_course": "Cursos",
@@ -197,7 +197,7 @@ var data = {
     "skills_subtitle_back": "Studying for 1 year",
     "skills_title_computer": "Computer Technician",
     "skills_subtitle_computer": "3 years of experience",
-    "qualification_title": "Qualification",
+    "qualification_title_main": "Qualification",
     "qualification_subtitle_main": "My personal journey",
     "qualification_college": "College",
     "qualification_course": "Course",

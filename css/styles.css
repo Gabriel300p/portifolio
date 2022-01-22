@@ -422,10 +422,10 @@ img {
 
 /* * Skills */
 
-.skills_container {
-  display: flex;
+/* .skills_container {
+  display: grid;
   justify-content: center;
-}
+} */
 
 .skills_header {
   display: flex;
@@ -847,9 +847,6 @@ img {
     gap: .5rem;
   }
 
-  .skills_container {
-    display: block;
-  }
 }
 
 @media screen and (min-width: 568px) {
