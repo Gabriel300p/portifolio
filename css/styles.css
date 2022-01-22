@@ -423,7 +423,8 @@ img {
 /* * Skills */
 
 .skills_container {
-  row-gap: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .skills_header {
