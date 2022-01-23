@@ -286,7 +286,7 @@ img {
 
 .home_social-icon {
   font-size: 2rem;
-  color: var(--first-color);
+  color: var(--first-color-light);
 }
 
 .home_social-icon:hover {
@@ -488,11 +488,11 @@ img {
 }
 
 .skills_js {
-  width: 50%;
+  width: 40%;
 }
 
 .skills_react {
-  width: 60%;
+  width: 50%;
 }
 
 .skills_python {
@@ -504,11 +504,11 @@ img {
 }
 
 .skills_figma {
-  width: 60%;
+  width: 50%;
 }
 
 .skills_photoshop {
-  width: 40%;
+  width: 35%;
 }
 
 .skills_windows {
