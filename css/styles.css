@@ -237,6 +237,19 @@ img {
   font-size: 1.2rem;
 }
 
+.brazil_flag {
+  width: 1.2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 0.3rem;
+}
+
+.usa_flag {
+  width: 1.2rem;
+  margin-right: 1rem;
+  margin-top: 0.3rem;
+}
+
 .nav_close {
   position: absolute;
   right: 1.3rem;
@@ -329,7 +342,7 @@ img {
   font-size: 2rem;
 }
 
-.home_scroll-name {
+.home_scroll_name {
   font-size: var(--small-font-size);
   color: var(--title-color);
   font-weight: var(--font-medium);
@@ -409,9 +422,10 @@ img {
 
 /* * Skills */
 
-.skills_container {
-  row-gap: 0;
-}
+/* .skills_container {
+  display: grid;
+  justify-content: center;
+} */
 
 .skills_header {
   display: flex;
@@ -832,6 +846,7 @@ img {
   .qualification_data {
     gap: .5rem;
   }
+
 }
 
 @media screen and (min-width: 568px) {
