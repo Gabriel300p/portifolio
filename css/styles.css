@@ -469,13 +469,15 @@ img {
 
 .skills_title {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   margin-bottom: var(--mb-0-5);
 }
 
 .skills_name {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
+  padding-left: 1rem;
 }
 
 .skills_bar,
@@ -491,54 +493,6 @@ img {
 .skills_percentage {
   display: block;
   background-color: var(--first-color)
-}
-
-.skills_html {
-  width: 90%;
-}
-
-.skills_css {
-  width: 70%;
-}
-
-.skills_js {
-  width: 40%;
-}
-
-.skills_react {
-  width: 50%;
-}
-
-.skills_python {
-  width: 50%;
-}
-
-.skills_go {
-  width: 30%;
-}
-
-.skills_figma {
-  width: 50%;
-}
-
-.skills_photoshop {
-  width: 35%;
-}
-
-.skills_windows {
-  width: 80%;
-}
-
-.skills_zabbix {
-  width: 60%;
-}
-
-.skills_rounters {
-  width: 70%;
-}
-
-.skills_computer {
-  width: 90%;
 }
 
 .skills_close .skills_list {
